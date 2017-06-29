@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:scenario xmlns:ns2="xmlElements">
+    <Scenario>
+        <page>
+            <navigateTo>
+                <string>www.google.com</string>
+                <stringType>URL</stringType>
+                <verificationMessage>HelloWorld</verificationMessage>
+            </navigateTo>
+        </page>
+    </Scenario>
+</ns2:scenario>
