@@ -1,0 +1,15 @@
+Index: QA.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- QA.xml	(date 1498743541000)
++++ QA.xml	(revision )
+@@ -19,6 +19,7 @@
+             </navigateTo>
+ 
+             <!--<text>-->
++            //
+                 <!--<string>q</string>-->
+                 <!--<stringType>name</stringType>-->
+                 <!--<text>TARDIS</text>-->
