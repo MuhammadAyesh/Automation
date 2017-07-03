@@ -1,6 +1,7 @@
 package test;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -54,18 +55,30 @@ public class Commands implements Closeable {
 
         if (submitBy.equalsIgnoreCase(NAME)) {
             WebElement webElement = driver.findElement(By.name(by));
-            webElement.sendKeys(string);
+            if (checkText(webElement,string))
+                webElement.sendKeys(string);
 
         } else if (submitBy.equalsIgnoreCase(ID)) {
             WebElement webElement = driver.findElement(By.id(by));
-            webElement.sendKeys(string);
+            if (checkText(webElement,string))
+                webElement.sendKeys(string);
 
         } else if (submitBy.equalsIgnoreCase(XPATH)) {
             WebElement webElement = driver.findElement(By.xpath(by));
-            webElement.sendKeys(string);
+            if (checkText(webElement,string))
+                webElement.sendKeys(string);
         }
 
             verify(verify, "submitText\t" + string);
+    }
+
+    private boolean checkText(WebElement element,String text) {
+        if (text.equalsIgnoreCase("enter")) {
+            element.sendKeys(Keys.ENTER);
+            return false;
+        } else {
+            return true;
+        }
     }
 
     public void click(String stringType, String string, String verify) {

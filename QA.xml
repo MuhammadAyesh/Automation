@@ -3,40 +3,27 @@
     <Scenario>
         <page>
             <navigateTo>
-                <string>https://youtu.be/xcSp5XrgORg?t=00</string>
+                <string>https://www.google.com</string>
                 <stringType>URL</stringType>
             </navigateTo>
+
+            <text>
+                <string>q</string>
+                <stringType>name</stringType>
+                <text>TARDIS</text>
+                <verificationMessage>Ta</verificationMessage>
+            </text>
+
+            <text>
+                <string>q</string>
+                <stringType>name</stringType>
+                <text>enter</text>
+            </text>
 
             <navigateTo>
-                <string>https://youtu.be/xcSp5XrgORg?t=72</string>
-                <stringType>URL</stringType>
+                <string>//*[@id="rso"]/div[1]/div/div/div/h3/a/span</string>
+                <stringType>xpath</stringType>
             </navigateTo>
-
-
-            <navigateTo>
-                <string>https://youtu.be/xcSp5XrgORg?t=127</string>
-                <stringType>URL</stringType>
-            </navigateTo>
-
-            <!--<text>-->
-            //
-                <!--<string>q</string>-->
-                <!--<stringType>name</stringType>-->
-                <!--<text>TARDIS</text>-->
-                <!--<verificationMessage>Ta</verificationMessage>-->
-            <!--</text>-->
-            <!--<click>-->
-                <!--<string>btnK</string>-->
-                <!--<stringType>name</stringType>-->
-                <!--<verificationMessage>dsf</verificationMessage>-->
-            <!--</click>-->
         </page>
-
-        <!--<page>-->
-            <!--<navigateTo>-->
-                <!--<string>//*[@id="rso"]/div[1]/div/div/div/h3/a/span</string>-->
-                <!--<stringType>xpath</stringType>-->
-            <!--</navigateTo>-->
-        <!--</page>-->
     </Scenario>
 </ns2:scenario>
