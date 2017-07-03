@@ -38,13 +38,11 @@ public class main {
         ArrayList<Page> list = scenario.getPageList();
 
         try (Commands commands = new Commands(driver)) {
-            for (int i = 0; i < 100; i++) {
                 for (Page page2 : list) {
                     for (Element element : page2.getElementsList()) {
                         commands.handleContent(element);
                         Thread.sleep(2000);
                     }
-                }
             }
         } catch (IOException e) {
             e.printStackTrace();
