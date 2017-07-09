@@ -1,2 +1,2 @@
 # Automation
-* hello from my laptop =P
+* hello from my desktop :P

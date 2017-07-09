@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b2f5efd-b3fb-472c-8c99-1c683ef51aa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,12 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="automationController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="automationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/automationController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="20">
+                <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -154,6 +168,7 @@
         <option value="$PROJECT_DIR$/web/javascript.js" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/automationController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -975,7 +990,7 @@
       <workItem from="1499340524454" duration="3677000" />
       <workItem from="1499586282806" duration="81000" />
       <workItem from="1499586471565" duration="13285000" />
-      <workItem from="1499602794837" duration="78000" />
+      <workItem from="1499602794837" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="V 1.0">
       <created>1498743541864</created>
@@ -1110,11 +1125,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499602845992</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="framework change">
+      <created>1499602874359</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499602874359</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71215000" />
+    <option name="totallyTimeSpent" value="71475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1861" height="1204" extended-state="6" />
@@ -1203,14 +1225,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/QA.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1569,6 +1583,17 @@
         <state relative-caret-position="396">
           <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
