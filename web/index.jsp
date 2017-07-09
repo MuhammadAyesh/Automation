@@ -99,6 +99,9 @@
         <span><input type="submit" value="Run" name="tableSubmit" class="add_row btn btn-success"></span>
     </form>
 
+    <form action="/report" method="post">
+    <input type="submit" value="View Report" name="viewReport" class="add_row btn btn-success">
+    </form>
 </div>
 
 <script src="javascript.js"></script>

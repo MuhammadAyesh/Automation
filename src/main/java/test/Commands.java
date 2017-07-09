@@ -35,7 +35,6 @@ public class Commands implements Closeable {
         fileManager.createTable("Number", "StepName", "Result");
     }
 
-
     public void navigateTo(String navigateBy, String string, String verify) throws InterruptedException {
 
         if (navigateBy.equalsIgnoreCase(LINK_TEXT)) {
