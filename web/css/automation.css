@@ -1,0 +1,49 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar h1 {
+    color: #f8f8f8;
+    font-family: 'Kurale', serif;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+select.action_of_lists {
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: white;
+}
+
+option {
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: white;
+}
+
+.form-control {
+    width:200px;
+    display: inline-block;
+    padding:20px;
+}
+
+.btn-success {
+    padding:10px;
+    display: inline-block;
+}
+
+
+.container {
+    text-align: center;
+}
