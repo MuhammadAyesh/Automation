@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b2f5efd-b3fb-472c-8c99-1c683ef51aa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/Commands.class" afterPath="$PROJECT_DIR$/target/classes/test/Commands.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FrameWork_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FrameWork_Web_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/FileManager.class" afterPath="$PROJECT_DIR$/target/classes/test/FileManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameWork.iml" afterPath="$PROJECT_DIR$/FrameWork.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlet/automationController.java" afterPath="$PROJECT_DIR$/src/main/java/servlet/automationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/Commands.java" afterPath="$PROJECT_DIR$/src/main/java/test/Commands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/FileManager.java" afterPath="$PROJECT_DIR$/src/main/java/test/FileManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -990,7 +982,7 @@
       <workItem from="1499586282806" duration="81000" />
       <workItem from="1499586471565" duration="13285000" />
       <workItem from="1499602794837" duration="1966000" />
-      <workItem from="1499604772551" duration="8114000" />
+      <workItem from="1499604772551" duration="8135000" />
     </task>
     <task id="LOCAL-00001" summary="V 1.0">
       <created>1498743541864</created>
@@ -1153,11 +1145,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499603690016</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="last-Mod">
+      <created>1499614146200</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1499614146200</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81217000" />
+    <option name="totallyTimeSpent" value="81238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1219,7 +1218,8 @@
     <MESSAGE value="hello atypon" />
     <MESSAGE value="again 1" />
     <MESSAGE value="yaya" />
-    <option name="LAST_COMMIT_MESSAGE" value="yaya" />
+    <MESSAGE value="last-Mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="last-Mod" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,6 +1474,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="20">
             <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
