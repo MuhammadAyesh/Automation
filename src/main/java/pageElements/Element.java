@@ -11,7 +11,6 @@ public abstract class Element {
     private String string;
     private String verificationMessage;
 
-
     public void setStringType(String stringType) {
         this.stringType = stringType;
     }

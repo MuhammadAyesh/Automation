@@ -15,13 +15,4 @@
         <url-pattern>/automation</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>report</servlet-name>
-        <servlet-class>servlet.report</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>report</servlet-name>
-        <url-pattern>/report</url-pattern>
-    </servlet-mapping>
-
 </web-app>
