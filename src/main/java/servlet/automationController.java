@@ -20,6 +20,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -37,6 +38,9 @@ public class automationController extends HttpServlet {
         try {
             creatingXml(request, response);
             runTheTest();
+            String htmlFilePath = "report.html"; // path to your new file
+            File htmlFile = new File(htmlFilePath);
+            Desktop.getDesktop().browse(htmlFile.toURI());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
             requestDispatcher.forward(request,response);
         } catch (JAXBException e) {
@@ -64,7 +68,7 @@ public class automationController extends HttpServlet {
         ArrayList<Page> pageList = new ArrayList<>();
 
         if (request.getParameter("tableSubmit") != null) {
-            page.setElementsList(saveMarks(request, response));
+            page.setElementsList(handleAction(request, response));
         }
 
         pageList.add(page);
@@ -74,7 +78,7 @@ public class automationController extends HttpServlet {
 
     }
 
-    private ArrayList<Element> saveMarks(HttpServletRequest request, HttpServletResponse response) {
+    private ArrayList<Element> handleAction(HttpServletRequest request, HttpServletResponse response) {
         Map<String, String[]> parameterMap = request.getParameterMap();
         ArrayList<Element> elementsList = new ArrayList<>();
 

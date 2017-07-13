@@ -1,11 +1,73 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    margin-bottom: 60px;
+    background: url(../images/Automation3.jpg) no-repeat 10% 15%;
+}
+
+.jumbotron {
+    padding: 50px 0px 100px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+#jumbotron_p {
+    color: black;
+    font-size: 40px;
 }
 
 .navbar h1 {
     color: #f8f8f8;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+}
+
+.table > thead > tr > th {
+    text-align: center;
+    font-family: 'Kurale', serif;
+    background-color: rgba(86, 66, 3, 0.56);
+    border-color: rgba(132, 76, 37, 0.57);
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: none;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(45, 46, 90, .80);
+    color: rgb(255, 187, 0);
+}
+
+tr:nth-child(odd) {
+    color: rgb(255, 251, 0);
+}
+
+th {
+    text-align: center;
+    font-family: 'Kurale', serif;
+    font-variant: small-caps;
+    font-size: 18px;
+    color: white;
+}
+
+td {
+    text-align: center;
+    font-family: 'Kurale', serif;
+    background-color: transparent;
+    border-color: rgba(132, 76, 37, 1);
+}
+
+input {
+    text-align: left;
+}
+
+select {
+    text-align: center;
     font-family: 'Kurale', serif;
 }
 
@@ -19,9 +81,10 @@ body {
 }
 
 select.action_of_lists {
-    padding: 10px;
-    border-radius: 3px;
-    margin: 10px;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 1px;
     background-color: white;
 }
 
@@ -33,17 +96,67 @@ option {
 }
 
 .form-control {
-    width:200px;
+    width: 220px;
     display: inline-block;
-    padding:20px;
+    padding: 20px;
+}
+
+#String, #verification_message, #Text_value {
+    font-family: 'Kurale', serif;
+    font-size: large;
 }
 
 .btn-success {
-    padding:10px;
+    padding: 6px 30px;
     display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
 }
 
+.add_row {
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+}
 
 .container {
     text-align: center;
 }
+
+.first_container {
+    padding: 30px;
+    height: 100%;
+    background-color: rgba(107, 106, 176, 0.94);
+}
+
+.container p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: rgba(71, 71, 71, 0.77);
+    font-size: 20px;
+}
+
+#footerName {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 60px;
+    color: rgba(255, 235, 59, 0.79);
+    font-size: 25px;
+
+}
+
+.footer P {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    font-family: 'Kaushan Script', cursive;
+}
+

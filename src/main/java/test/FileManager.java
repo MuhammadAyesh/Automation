@@ -9,12 +9,12 @@ public class FileManager implements Closeable {
     private PrintWriter printWriter;
 
     public FileManager() throws FileNotFoundException {
-        printWriter = new PrintWriter(new BufferedOutputStream(new FileOutputStream(new File("report.jsp"))));
+        printWriter = new PrintWriter(new BufferedOutputStream(new FileOutputStream(new File("report.html"))));
         createHtml();
     }
 
     private void createHtml() {
-        printWriter.println("<%@ page contentType=\"text/html;charset=UTF-8\" language=\"java\" %>\n\n" + "<html>\n" + "<body>");
+        printWriter.println("<html>\n" + "<body>");
     }
 
     public void createTable(String... headers) {

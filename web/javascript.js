@@ -12,14 +12,23 @@ function myAction() {
 
 
     var div = document.createElement('tr');
-    // div.className = 'row';
-// div.id =
-//     div.innerHTML = ' <td> <input type="hidden" name="name" value=' + action + '/>'+ action + '</td>\
-    div.innerHTML = '<td> <input type="hidden" name="action" value="' + action + '"/>' + action + '</td>\
+    if(action!="Action" && document.getElementById('stringType').value !="String type"&& document.getElementById('String').value !="") {
+        div.innerHTML = '<td> <input type="hidden" name="action" value="' + action + '"/>' + action + '</td>\
         <td><input type="hidden" name="stringType" value="' + stringType + '"/>' + stringType + '</td>\
         <td><input type="hidden" name="string" value="' + string + '"/>' + string + '</td>\
         <td><input type="hidden" name="textValue" value="' + textValue + '"/>' + textValue + '</td>\
         <td><input type="hidden" name="verificationMessage" value="' + verificationMessage + '"/>' + verificationMessage + '</td>';
-    document.getElementById('mytable').appendChild(div);
+        document.getElementById('mytable').appendChild(div);
+    }
+}
 
+function enableTextValue() {
+    var action = document.getElementById("action");
+    var text = action.options[action.selectedIndex].text;
+
+    if(text==="Text") {
+        document.getElementById('Text_value').disabled=false;
+    }else {
+        document.getElementById('Text_value').disabled=true;
+    }
 }
