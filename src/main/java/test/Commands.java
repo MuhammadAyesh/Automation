@@ -47,7 +47,7 @@ public class Commands implements Closeable {
             driver.get(string);
         }
 
-            verify(verify, "navigateTo\t" + string);
+//            verify(verify, "navigateTo\t" + string);
     }
 
     public void submitText(String submitBy, String by, String string, String verify) throws InterruptedException {
